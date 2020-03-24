@@ -1,0 +1,147 @@
+/*背景*/
+body {
+  background-image: linear-gradient(to bottom, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+nav{
+  position: fixed;
+  z-index: 1;
+  transition: 0.1s;
+  box-sizing: border-box;
+  font-family: Microsoft Yahei;
+}
+nav.Menu_scoll{
+  /* Menu的深淺度 */
+  background: rgba(0,0,0,0.7);
+}
+nav ul{ /* 取消ul預設的內縮及樣式 */
+  margin-top: 2vh;
+  margin-left: 5vw; 
+  list-style: none;
+}
+nav ul.drop-down-menu {
+  /*Menu外邊框*/
+  border: #ccc 0px solid;
+  display: line-block;
+  font-family: Microsoft Yahei;
+  font-size: 1.5rem;
+}
+nav ul.drop-down-menu .btn{
+  /*Menu按鈕*/
+  font-size: 1.5rem;
+}
+nav ul.drop-down-menu li {
+float: left; /* 只有第一層是靠左對齊*/
+}
+nav ul.drop-down-menu a {
+  /* Menu本身空格*/
+  font-weight:bold;
+  background-color:transparent ;
+  color: white; 
+  display: block;
+  padding: 1vh 5vw;
+  text-decoration: none;
+  line-height: 40px;
+}
+nav ul.drop-down-menu a:hover { /* Menu滑鼠滑入按鈕變色*/ 
+  background-color:#4169E1;
+  color:#fff;
+}
+nav .dropdown-menu { /* 下拉表單滑入按鈕變色*/ 
+  background-color:#483D8B;
+  color:#fff;
+  font-size: 1.5rem;
+}
+#menubackground{
+  padding: 9vh;
+  background-color: black;
+  background-size: cover;
+}
+#intro .jumbotron{
+  height:70vh;
+  margin-bottom: 1%;
+  border-bottom: : solid 2px #cfd9df;
+background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0.1)),url(Chihan.jpg)  25% 70% ;
+background:-o-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view2.jpg)   cover no-repeat;
+background:linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view2.jpg)   cover no-repeat;
+}
+#intro .jumbotronII{
+  height:70vh;
+  margin-bottom: 1%;
+  border-top: solid 2px #cfd9df;
+  background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view.jpg) 25% 55% ;
+background:-o-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view.jpg)   cover no-repeat;
+background:linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view.jpg)   cover no-repeat;
+  border-bottom: : solid 2px #cfd9df;
+}
+
+#intro .jumbotronIII{
+  height:70vh;
+  margin-bottom: 1%;
+  border-top: solid 2px #cfd9df;
+  border-bottom: : solid 2px #cfd9df;
+  background-size: cover;
+background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0)),url(view3.jpg) 25% 55% ;
+}
+#intro .jumbotronIIII{
+  height:70vh;
+  margin-bottom: 1%;
+  border-top: solid 2px #cfd9df;
+  border-bottom: : solid 2px #cfd9df;
+background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view5.jpg) 75% 80% ;
+background:-o-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view4.jpg)   cover no-repeat;
+background:linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view4.jpg)   cover no-repeat;
+}
+/*<!--標題屬性-->*/
+#intro h1{
+  font-size: 100px;
+  line-height: 2.5;
+}
+/*<!--按鈕屬性-->*/
+#intro .btn{
+  background-color: F05F5C;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius:18px;
+  font-size: 18px;
+}
+/*目錄需要的空格*/
+#intro .container{
+  position: relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+h1,h2,h3,h4,h5,h6,ul,li,a{
+  font-family: 'Noto Sans TC';
+}
+p,input,label,textarea,span{
+  font-family: 'Noto Serif TC';
+}
+footer {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  border-top: solid 2px #cfd9df;/*<!--footer上方間隔線-->*/
+  padding: 20px 0px;
+}
+footer .content{
+  margin-bottom: 5px;
+}
+footer li{
+  width: 50%;
+  float: left;
+  display: block;
+  line-height: 2;
+  margin-top: 10px;
+}
+footer .footerIMG{
+  padding-bottom: 5px;
+  width: 60%;
+  height: auto;
+}
+footer .CopyRight{
+  text-align: center;
+  color: #7f7f80;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
