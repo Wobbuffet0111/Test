@@ -42,7 +42,7 @@ nav ul.drop-down-menu a {
   text-decoration: none;
   line-height: 40px;
 }
-nav ul.drop-down-menu a:hover { /* Menu滑鼠滑入按鈕變色*/ 
+nav ul.drop-down-menu a:hover {/* Menu滑鼠滑入按鈕變色*/ 
   background-color:#4169E1;
   color:#fff;
 }
