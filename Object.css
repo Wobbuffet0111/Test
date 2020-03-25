@@ -154,7 +154,7 @@ nav .dropdown-menu { /* 下拉表單滑入按鈕變色*/
   height: 400px;
 }
 #latest .pagination{ /*換頁按鈕*/
-  padding: 7vh 35vw;
+  padding: 5vh 20vw;
 }
 #latest .carousel-control-next, .carousel-control-prev{/*換頁按鈕上下層順序*/
   z-index: 0;
