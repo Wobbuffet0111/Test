@@ -60,7 +60,7 @@ nav .dropdown-menu { /* 下拉表單滑入按鈕變色*/
   height:100vh;
   margin-bottom: 0%;
   border-bottom: : solid 2px #cfd9df;
-background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0.01)),url(MainView.jpg)  25% 70% ;
+background:-webkit-linear-gradient(left,#ffffff, rgba(51,51,51,0.01)),url(https://img.onl/w2yCUU.jpg)  25% 70% ;
 background:-o-linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view2.jpg)   cover no-repeat;
 background:linear-gradient(left,#ffffff, rgba(51,51,51,0.3)),url(view2.jpg)   cover no-repeat;
 }
